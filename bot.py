@@ -9,8 +9,8 @@ class MyClient(discord.Client):
         if message.author == self.user:
             return
 
-        if message.content == 'ping':
-            await message.channel.send('pong')
+        if message.content == 'pang':
+            await message.channel.send('pung')
 
 client = MyClient()
-client.run('NzYzMDMyOTkwMTMyNzMxOTM0.X3xfgxjz2Q.sJ0SFWkX63_8uM8gF3lIDGRR3Cs')
+client.run('')
